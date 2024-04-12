@@ -1,0 +1,11 @@
+D:\Github\Ransomware-training\Ransomware-training\Ransomware-training\target\debug\deps\libgetrandom-f5bbccbd0bb94c51.rmeta: C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\lib.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\util.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error_impls.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\windows.rs
+
+D:\Github\Ransomware-training\Ransomware-training\Ransomware-training\target\debug\deps\libgetrandom-f5bbccbd0bb94c51.rlib: C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\lib.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\util.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error_impls.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\windows.rs
+
+D:\Github\Ransomware-training\Ransomware-training\Ransomware-training\target\debug\deps\getrandom-f5bbccbd0bb94c51.d: C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\lib.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\util.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error_impls.rs C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\windows.rs
+
+C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\lib.rs:
+C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error.rs:
+C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\util.rs:
+C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\error_impls.rs:
+C:\Users\Rami\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.14\src\windows.rs:

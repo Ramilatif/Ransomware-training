@@ -1,0 +1,12 @@
+[package]
+name = "Ransomware-training"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+random-number = "0.1.8"
+winapi = "0.3.9"
+windows-drives = "0.5.0"
