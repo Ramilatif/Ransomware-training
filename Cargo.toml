@@ -10,3 +10,4 @@ edition = "2021"
 winapi ={ version = "0.3.9", features = ["winuser"]  }
 windows-drives = "0.5.0"
 walkdir = "2.3"
+crypto = "0.5.1"

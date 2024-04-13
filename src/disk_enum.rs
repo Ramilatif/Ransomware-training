@@ -27,6 +27,7 @@ pub unsafe fn disk_enum(){
     // For exercice, we are going to enumerate just one local disc
     for entry in WalkDir::new("E:\\").into_iter().filter_map(|e| e.ok()) {
         if entry.file_type().is_file() {
-            println!("{}", entry.path().display());
+            //println!("{}", entry.path().display());
+
 
 }}}
