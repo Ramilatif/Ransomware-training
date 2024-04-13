@@ -1,1 +1,0 @@
-D:\Github\Ransomware-training\Ransomware-training\target\debug\Ransomware-training.exe: D:\Github\Ransomware-training\Ransomware-training\src\disk_enum.rs D:\Github\Ransomware-training\Ransomware-training\src\main.rs
