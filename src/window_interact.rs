@@ -1,43 +1,35 @@
-use image::{ DynamicImage, GenericImageView };
-use winit::{
-    event::{ Event, WindowEvent },
-    event_loop::{ ControlFlow, EventLoop },
-    window::{ WindowBuilder, Window },
-};
+extern crate gtk;
+use gtk::prelude::*;
+use gtk::{ButtonsType, DialogFlags, MessageDialog, MessageType, Window, WindowType};
 
-pub unsafe fn window_interact() {
-    // icon initalization
-    let icon_image = image::open("..\\extra\\img\\icon.jpg").unwrap();
 
-    let icon_rgba = icon_image.to_rgba8();
-    let dimensions = icon_rgba.dimensions();
-    let icon = winit::window::Icon
-        ::from_rgba(icon_rgba.into_raw(), dimensions.0, dimensions.1)
-        .unwrap();
+pub async unsafe fn window_interact() {
+   // Initialise GTK
+   gtk::init().expect("Failed to initialize GTK.");
 
-    //Window initalization
-    let event_loop = EventLoop::new().unwrap();
-    let window = WindowBuilder::new().build(&event_loop).unwrap();
+   // Crée une nouvelle fenêtre
+   let window = Window::new(WindowType::Toplevel);
+   let aha = "yee";
+   window.set_title(&aha);
+   window.set_default_size(350, 70);
 
-    window.set_window_icon(Some(icon));
-    event_loop.set_control_flow(ControlFlow::Poll);
-    event_loop.set_control_flow(ControlFlow::Wait);
+   // Crée un dialog de message
+   let dialog = MessageDialog::new(
+       Some(&window),
+       DialogFlags::DESTROY_WITH_PARENT,
+       MessageType::Info,
+       ButtonsType::Ok,
+       "Ceci est un message dans une fenêtre en Rust !",
+   );
 
-    //loop to run the window
-    event_loop.run(move |event, elwt| {
-        match event {
-            Event::WindowEvent { event: WindowEvent::CloseRequested, .. } => {
-                println!("The close button was pressed; stopping");
-                elwt.exit();
-            }
-            Event::AboutToWait => {
-                window.request_redraw();
-            }
-            Event::WindowEvent { event: WindowEvent::RedrawRequested, .. } => {
-                window.set_title("Osakaware");
-                window.set_decorations(true);
-            }
-            _ => (),
-        }
-    });
+   // Connecte le signal pour fermer la fenêtre lors de la fermeture du dialog
+   dialog.connect_response(|dialog, _| {
+       dialog.close();
+   });
+
+   // Affiche la fenêtre et le dialog
+   dialog.show_all();
+
+   // Démarre la boucle principale de l'application
+   gtk::main();
 }

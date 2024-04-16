@@ -11,6 +11,7 @@ winapi ={ version = "0.3.9", features = ["winuser"]  }
 windows-drives = "0.5.0"
 walkdir = "2.3"
 crypto = "0.5.1"
-winit = "0.29.15"
 image = "0.25.1"
-wgpu = "0.19.3"
+fltk = "1.4.28"
+
+
