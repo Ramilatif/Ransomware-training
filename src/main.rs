@@ -34,7 +34,7 @@ fn main() {
         draw::draw_text("Get it together", f.x() + 350, f.y() + 30);
         
        
-        draw::draw_text("Osaka has encrypted your data!!!! If you want to decipher them, give him Chiyo's quilts!!!", f.x() + 50, f.y() + 350);
+        draw::draw_text("Osaka has encrypted your data!!!! If you want to decipher them, give her Chiyo's quilts!!!", f.x() + 50, f.y() + 350);
     }); 
     
     wind.flush();
